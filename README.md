@@ -89,6 +89,17 @@ Configured SSH key properly between Jenkins and app server
 7. Wrong Application File Name
 Renamed app.json → app.js
 
+## 📸 Screenshots
+
+### Jenkins Pipeline Success
+![Jenkins Pipeline](./screenshots/jenkins.png)
+
+### Docker Hub Image
+![Docker Hub](./screenshots/dockerhub.png)
+
+### Application Running
+![Application](./screenshots/app.png)
+
 **✅ Final Outcome**
 Fully functional CI/CD pipeline
 Docker image versioning using Jenkins build number
