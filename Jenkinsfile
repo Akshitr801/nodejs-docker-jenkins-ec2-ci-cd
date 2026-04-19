@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_REPO = 'akshitr801/cicd-app'
+        IMAGE_REPO = 'akshitr801/nodejs-docker-jenkins-ec2-ci-cd'
         IMAGE_TAG = "${BUILD_NUMBER}"
         DOCKER_IMAGE = "${IMAGE_REPO}:${IMAGE_TAG}"
         APP_SERVER = '3.134.80.144'
